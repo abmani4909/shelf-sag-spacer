@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shelf Sag Spacer</string>
+
+    <string name="cta_start">START PLANNING</string>
+    <string name="cta_estimate">SEE THE RESULT</string>
+    <string name="cta_brackets">BRACKET LAYOUT</string>
+    <string name="cta_cut_list">CUT LIST</string>
+    <string name="cta_play_again">PLAN AGAIN</string>
+    <string name="cta_menu">MENU</string>
+    <string name="cta_save">SAVE PLAN</string>
+    <string name="cta_even">EVEN SPACING</string>
+    <string name="cta_done">DONE</string>
+    <string name="cta_cancel">CANCEL</string>
+    <string name="cta_delete">DELETE</string>
+
+    <string name="value_mm">%1$s mm</string>
+    <string name="value_in">%1$s in</string>
+    <string name="value_kg_m">%1$s kg/m</string>
+    <string name="value_lb_ft">%1$s lb/ft</string>
+    <string name="value_metres">%1$s m</string>
+    <string name="value_count">%1$d</string>
+    <string name="value_ratio">L/%1$d</string>
+    <string name="value_quantity">x%1$d</string>
+    <string name="value_of_total">%1$d/%2$d</string>
+
+    <string name="splash_title">SHELF SAG\nSPACER</string>
+    <string name="splash_tagline">MEASURE TWICE. HANG ONCE.</string>
+    <string name="splash_loading">LOADING</string>
+    <string name="splash_logo_cd">Shelf Sag Spacer emblem</string>
+
+    <string name="menu_eyebrow">WORKSHOP</string>
+    <string name="menu_title">SHELF\nPLANS</string>
+    <string name="menu_subtitle">%1$d PLANS IN %2$d ROOMS</string>
+    <string name="menu_hint">PICK A BOARD, ADD A LOAD, READ THE BEND.</string>
+    <string name="menu_stat_plans">PLANS</string>
+    <string name="menu_stat_safe">SAFE</string>
+    <string name="menu_empty_title">NOTHING MEASURED YET</string>
+    <string name="menu_empty_body">Start a plan and see how far your shelf will bend.</string>
+    <string name="menu_empty_cd">Tape measure</string>
+    <string name="menu_settings_cd">Shelf settings</string>
+    <string name="menu_hero_cd">Oak board</string>
+    <string name="menu_delete_cd">Delete this plan</string>
+    <string name="menu_plan_cd">%1$s, %2$s of sag</string>
+    <string name="plan_dims">%1$s x %2$s - %3$s %4$s</string>
+
+    <string name="game_title">SAG VIEW</string>
+    <string name="game_back_cd">Back to plans</string>
+    <string name="game_label_material">MATERIAL</string>
+    <string name="game_label_load">LOAD</string>
+    <string name="game_label_length">LENGTH</string>
+    <string name="game_label_depth">DEPTH</string>
+    <string name="game_stat_span">SPAN</string>
+    <string name="game_stat_limit">LIMIT</string>
+    <string name="game_stat_max_span">MAX SPAN</string>
+    <string name="game_new_plan">NEW SHELF</string>
+    <string name="sag_canvas_cd">Side view of the shelf bending %1$s</string>
+    <string name="stepper_less_cd">Decrease %1$s</string>
+    <string name="stepper_more_cd">Increase %1$s</string>
+    <string name="picker_open_cd">Change %1$s</string>
+    <string name="material_with_thickness">%1$s %2$s</string>
+
+    <string name="rating_invisible">INVISIBLE</string>
+    <string name="rating_noticeable">NOTICEABLE</string>
+    <string name="rating_sagging">SAGGING</string>
+    <string name="verdict_invisible">Nobody will ever notice this bend. Build it.</string>
+    <string name="verdict_noticeable">You will see a dip in a year. Add a bracket or go thicker.</string>
+    <string name="verdict_sagging">This board will bow. Shorten the span before you cut.</string>
+
+    <string name="material_pine">PINE BOARD</string>
+    <string name="material_oak">OAK BOARD</string>
+    <string name="material_plywood">BIRCH PLYWOOD</string>
+    <string name="material_mdf">MDF PANEL</string>
+    <string name="material_chipboard">PARTICLEBOARD</string>
+    <string name="material_glass">TEMPERED GLASS</string>
+    <string name="material_note_pine">Soft, cheap, bends early.</string>
+    <string name="material_note_oak">Stiff hardwood. The safe default.</string>
+    <string name="material_note_plywood">Even grain, predictable.</string>
+    <string name="material_note_mdf">Smooth, but it creeps under load.</string>
+    <string name="material_note_chipboard">Weakest. Keep spans short.</string>
+    <string name="material_note_glass">Stiff but brittle. Mind the edges.</string>
+    <string name="material_stiffness">E = %1$s GPa</string>
+    <string name="material_tile_cd">Board sample</string>
+
+    <string name="load_decor">DECOR AND PLANTS</string>
+    <string name="load_paperbacks">PAPERBACKS</string>
+    <string name="load_large_books">LARGE BOOKS</string>
+    <string name="load_records">VINYL RECORDS</string>
+    <string name="load_tools">TOOLS AND TINS</string>
+    <string name="load_custom">CUSTOM WEIGHT</string>
+    <string name="load_custom_field">TOTAL KILOGRAMS ON THE SHELF</string>
+    <string name="load_books_cd">Row of paperbacks</string>
+    <string name="load_tools_cd">Stack of tool tins</string>
+
+    <string name="dialog_material_title">MATERIAL</string>
+    <string name="dialog_thickness_title">THICKNESS</string>
+    <string name="dialog_load_title">LOAD</string>
+
+    <string name="result_eyebrow">RESULT</string>
+    <string name="result_of_sag">OF SAG AT MID-SPAN</string>
+    <string name="result_stat_ratio">RATIO</string>
+    <string name="result_stat_max_span">MAX SPAN</string>
+    <string name="result_stat_brackets">BRACKETS</string>
+
+    <string name="brackets_title">BRACKET LAYOUT</string>
+    <string name="brackets_readout">%1$d BRACKETS</string>
+    <string name="brackets_stat_spacing">SPACING</string>
+    <string name="brackets_stat_gap">WIDEST GAP</string>
+    <string name="brackets_stat_studs">ON STUDS</string>
+    <string name="brackets_label_count">BRACKETS</string>
+    <string name="brackets_label_studs">STUD SPACING</string>
+    <string name="brackets_warning">GAP TOO WIDE - %1$s OVER</string>
+    <string name="bracket_handle_cd">Bracket %1$d</string>
+    <string name="stud_tag_cd">Stud mark</string>
+    <string name="stud_16">16 IN</string>
+    <string name="stud_24">24 IN</string>
+    <string name="stud_off">OFF</string>
+
+    <string name="cutlist_eyebrow">SHOPPING</string>
+    <string name="cutlist_title">CUT LIST</string>
+    <string name="cutlist_section_boards">BOARDS</string>
+    <string name="cutlist_section_hardware">HARDWARE</string>
+    <string name="cutlist_section_fasteners">FASTENERS</string>
+    <string name="cutlist_board_name">%1$s - %2$s x %3$s x %4$s</string>
+    <string name="cutlist_board_detail">Buy %1$s to leave a trim margin.</string>
+    <string name="cutlist_bracket_name">SHELF BRACKET - %1$s ARM</string>
+    <string name="cutlist_bracket_detail">Fix into a stud wherever one lines up.</string>
+    <string name="cutlist_wall_screw">WALL SCREW 5 x 60 MM</string>
+    <string name="cutlist_shelf_screw">SHELF SCREW 4 x 20 MM</string>
+    <string name="cutlist_wall_plug">WALL PLUG 8 MM</string>
+    <string name="cutlist_bought_cd">Bought</string>
+    <string name="cutlist_not_bought_cd">Not bought</string>
+    <string name="cutlist_summary_board">BOARD</string>
+    <string name="cutlist_summary_brackets">BRACKETS</string>
+    <string name="cutlist_summary_sag">ESTIMATED SAG %1$s - %2$s</string>
+
+    <string name="settings_eyebrow">WORKSHOP</string>
+    <string name="settings_title">SHELF\nSETTINGS</string>
+    <string name="settings_header">SHELF SETTINGS</string>
+    <string name="settings_units">UNITS</string>
+    <string name="settings_units_metric">METRIC (MM / KG)</string>
+    <string name="settings_units_imperial">IMPERIAL (IN / LB)</string>
+    <string name="settings_sag_limit">ACCEPTABLE SAG</string>
+    <string name="settings_limit_strict">STRICT L/360</string>
+    <string name="settings_limit_normal">NORMAL L/240</string>
+    <string name="settings_limit_relaxed">RELAXED L/180</string>
+    <string name="settings_limit_note_strict">Furniture grade. Nothing visible from across the room.</string>
+    <string name="settings_limit_note_normal">Standard joinery tolerance for a home shelf.</string>
+    <string name="settings_limit_note_relaxed">Garage shelving. A small dip is part of the job.</string>
+    <string name="settings_hard_limit">HARD LIMIT</string>
+    <string name="settings_hard_limit_note">A long shelf can pass the ratio and still look bent.</string>
+    <string name="settings_stud_spacing">STUD SPACING</string>
+    <string name="settings_about">ABOUT</string>
+    <string name="settings_about_body">Deflection is estimated for a uniformly distributed load on a simply supported board. Estimates only. Check load ratings for glass and metal shelves.</string>
+    <string name="settings_units_cd">Tape measure</string>
+
+    <string name="delete_title">DELETE PLAN</string>
+    <string name="delete_body">%1$s will be removed from your shelf plans.</string>
+</resources>
